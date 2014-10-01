@@ -260,6 +260,7 @@ describe("A rel parser", function() {
 
     it("should not fail", function() {
         expect(expression).toParse();
+        expect(notExpression).toParse();
     });
 
     it("should build a list of rels", function() {
