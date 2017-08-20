@@ -44,7 +44,7 @@
   },
   "bin": "cli.js",
   "scripts": {
-    "test": "make lint test",
+    "test": "make lint flow test",
     "prepublish": "make NIS= dist"
   },
   "dependencies": {
